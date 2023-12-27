@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "658c2ad75754afcc43f75018"
+  },
+  "name": "bhavin",
+  "email": "bhavin1234@gmail.com",
+  "password": "$2b$05$Oo5t9dnQj5eXov5U0D/y5OSF7Tv6AHI0llhmTKYTuxYTZsnIcd6wS",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2b415754afcc43f7501b"
+  },
+  "name": "bee",
+  "email": "bee1234@gmail.com",
+  "password": "$2b$05$PsQr4rP5tR77jdgNoSmk1.dwP6YiFeemTEkCg1ZSDqQdJdX7P8MpC",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2b725754afcc43f7501e"
+  },
+  "name": "moh",
+  "email": "moh1234@gmail.com",
+  "password": "$2b$05$pevcSHIjmx2nmfGliLe.2eqy9EYv6hBLzlMQra2Sgv9rngZx.zYyW",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2bbd5754afcc43f75021"
+  },
+  "name": "raja",
+  "email": "raja1234@gmail.com",
+  "password": "$2b$05$VNdSPLhSMDYKGdiNP2C3l.GPOs4K2v4FAHXPXpvwTe/XDTOT7CudC",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c4b485a12d9d925f9816d"
+  },
+  "name": "viral",
+  "email": "viral1234@gmail.com",
+  "password": "$2b$05$5pviGoKlWwKsNsXDWa/78.JLjKR.iJ1hzmxlrjEs0SfYS7kW2E64u",
+  "role": "user",
+  "__v": 0
+}]

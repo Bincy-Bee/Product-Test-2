@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "658c2dd85754afcc43f7502a"
+  },
+  "title": "Shirt",
+  "desc": "Mens checks shirt for casual look",
+  "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/1/tr:w-270,/f1010c3NickChecksTwill-1891_Black_3.jpg?rnd=20200526195200",
+  "price": "2599",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2e635754afcc43f7502c"
+  },
+  "title": "Shirt",
+  "desc": "Mens plain shirt for casual look",
+  "image": "https://images.bestsellerclothing.in/data/JJ/15-nov-2023/237137402_g0.jpg?width=415&height=550&mode=fill&fill=blur&format=auto",
+  "price": "3999",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2e8b5754afcc43f7502e"
+  },
+  "title": "Shirt",
+  "desc": "Mens plain white shirt zara",
+  "image": "https://tmlewin.co.uk/cdn/shop/files/SHIRT_15428_052_69754a08-f54a-4819-a6aa-0136192a39fb.jpg?v=1696953904&width=533",
+  "price": "5999",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2ed75754afcc43f75030"
+  },
+  "title": "Shirt",
+  "desc": "Mens big chekes shirt zara",
+  "image": "https://media3.newlookassets.com/i/newlook/681560019/mens/clothing/shirts/white-check-double-pocket-shirt.jpg",
+  "price": "2099",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2f055754afcc43f75032"
+  },
+  "title": "Shirt",
+  "desc": "Mens plain shirt casual",
+  "image": "https://mirzacdns3.s3.ap-south-1.amazonaws.com/cache/catalog/RFS1734/1-445x618.jpg",
+  "price": "1199",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2fb25754afcc43f75034"
+  },
+  "title": "Trousers",
+  "desc": "Mens plain cargo type trosers pents",
+  "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41JPHvcI1eL._AC_UY1100_.jpg",
+  "price": "2199",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c30215754afcc43f75036"
+  },
+  "title": "Trousers",
+  "desc": "Mens plain cargo type trosers pents",
+  "image": "https://image.made-in-china.com/2f0j00kcjlbRoPZVGS/Mens-Pants-Solid-Color-Zip-Fly-Loose-Fit-Casual-Mens-Streetwear-Skate-Pants-Baggy-Cargo-Pants-for-Men.webp",
+  "price": "1799",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c304a5754afcc43f75038"
+  },
+  "title": "Trousers",
+  "desc": "Mens plain formal pents",
+  "image": "https://imagescdn.planetfashion.in/img/app/product/6/666565-6853674.jpg?auto=format&w=494.40000000000003",
+  "price": "1799",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c30be5754afcc43f7503a"
+  },
+  "title": "T-Shirt",
+  "desc": "Mens plain off-shoulder t-shirt",
+  "image": "https://assets.ajio.com/medias/sys_master/root/20220630/q1hp/62bca756aeb26921af523dfb/-473Wx593H-469209361-purple-MODEL4.jpg",
+  "price": "1399",
+  "size": "L",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c30d65754afcc43f7503c"
+  },
+  "title": "T-Shirt",
+  "desc": "Mens plain off-shoulder t-shirt",
+  "image": "https://giftin.com/wp-content/uploads/2022/07/6-%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95220168.jpg",
+  "price": "1399",
+  "size": "L",
+  "__v": 0
+}]
