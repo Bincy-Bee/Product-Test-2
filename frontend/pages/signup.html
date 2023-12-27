@@ -7,27 +7,6 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- <header>
-        <div class="container">
-            <div class="row">
-                <div class="main">
-                    <a href="">Home</a>
-                </div>
-                <div class="main2">
-                    <div class="subrow">
-                        <div class="one">
-                            <a href="" id="signup">Signup</a>
-                            <a href="" id="profile">UserName</a>
-                        </div>
-                        <div class="two">
-                            <a href="" id="login">Login</a>
-                            <a href="" id="logout">Logout</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
     <div id="navbar"></div>
     <section class="signup">
         <form action="" id="signupForm">
@@ -43,11 +22,8 @@
         </form>
     </section>
 </body>
-<script type="module">
-
-    // document.getElementById("navbar").innerHTML=
-    // document.getElementById("profile").style.display="none";
-    // document.getElementById("logout").style.display="none";
+<script type="module" src="../js/style.js"></script>
+<script >
 
     document.getElementById("signupForm").addEventListener("submit",(e)=>{
         e.preventDefault();
@@ -67,7 +43,8 @@
         .then((res)=>res.json())
         .then((data)=>{
             console.log(data)
-            document.cookie = `token=${data.token};path=/;`
+            alert('Signup Sucessfully');
+            window.location.href="http://127.0.0.1:5500/frontend/pages/login.html";
         })
     })
 </script>

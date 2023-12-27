@@ -40,7 +40,7 @@ const login = async(req,res)=>{
                 else if(result){
                     let name = data.name;
                     let token = jwt.sign({id:data.id, role:data.role}, "secret");
-                    res.json({token:token, name:name, msg:'Login successfully signed'})
+                    res.cookie("token",token).json({token:token, name:name, msg:'Login successfully signed'})
                 }
                 else{
                     return res.status({Message:'Password mismatch'})

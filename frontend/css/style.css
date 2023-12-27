@@ -5,6 +5,7 @@
 }
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(243, 243, 243);
 }
 header{
     padding: 20px;
@@ -129,7 +130,6 @@ header .subrow .two{
 }
 .display #show .refDiv .second{
     width: 50%;
-    
 }
 .display #show .refDiv .third{
     width: 30%;
@@ -142,6 +142,7 @@ header .subrow .two{
     border: 1px solid black;
     border-radius: 8px;
     font-size: 16px;
+    cursor: pointer;
 }
 .display #show .refDiv h2{
     font-size: 24px;

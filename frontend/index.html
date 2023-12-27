@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="container">
             <div class="row">
                 <div class="main">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
     <div id="navbar"></div>
     <section class="display">
         <div class="container">
@@ -35,45 +35,22 @@
         </div>
     </section>
 </body>
-<!-- <script type="module" src="../frontend/js/style.js"></script> -->
+<script type="module" src="../frontend/js/style.js"></script>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script >
-    document.getElementById("profile").style.display="none";
-    document.getElementById("logout").style.display="none";
-    const userName = document.cookie.split(",")[1].split("=")[1]
-    const cookie = document.cookie.split(",")[0].split("=")[0];
+    let isLogin = document.cookie.split(",")[0];
    
-    if(cookie){
-        document.getElementById("signup").style.display="none";
-        document.getElementById("profile").style.display="block";
-        document.getElementById("login").style.display="none";
-        document.getElementById("logout").style.display="block";
-        document.getElementById("profile").innerHTML=userName;
-    }
-    else{
-        document.getElementById("profile").style.display="none";
-        document.getElementById("profile").innerHTML="";
-    }
-
-        const delCookie = (name)=>{
-            document.cookie= name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-        }
-    
-    document.getElementById("logout").addEventListener("click",()=>delCookie(cookie));
-
-
     const handleAmount=async(amount)=>{
         console.log(amount)
         let res = await fetch(`http://localhost:8090/product/payment`,{
             method:"POST",
-            headers: {"content-type": "application/json"},
-            body: JSON.stringify({amount: amount})
-            })
+            headers:{"content-type":"application/json"},
+            body: JSON.stringify({amount:amount})
+        });
         let order = await res.json();
-        console.log(order)
         let option={
             key: 'rzp_test_2yN6gjtjhdDxG9',
-            amount:8785
+            amount:order.amount
         }
         let razorplay = new Razorpay(option);
         razorplay.open();
@@ -99,7 +76,11 @@
 
             btn = document.createElement("button");
             btn.innerHTML="Buy Now"
-            btn.addEventListener("click",()=>handleAmount(ele.price))
+            btn.addEventListener("click",()=>{
+                if(isLogin){
+                    handleAmount(ele.price)
+                }
+            })
 
             div1 =document.createElement("div");
             div1.setAttribute("class", "first");
@@ -117,8 +98,7 @@
             div.setAttribute("class", "refDiv");
             div.append(div1, div2, div3);
 
-            document.getElementById("show").append(div)
-
+            document.getElementById("show").append(div);
         })
     }
 
